@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- <img src="../data/wave.jpg" alt="Background image" /> -->
+    <div id="top-container">
+      <h1 id="Title">They</h1>
+      <p id="slogan">You know what They say</p>
+      <div id="user-options">
+        <!-- <div id="login">
+          <button>Login</button>
+        </div>
+        <div id="create-account">
+          <button>Create Account</button>
+        </div> -->
+      </div>
+    </div>
+    <div id="bottom-container">
+      <h2>Services</h2>
+      <div id="our-services">
+        <div id="button_container">
+          <button onclick="nextCard(620)" id="left"></button>
+          <button onclick="nextCard(-620)" id="right"></button>
+        </div>
+        <div id="services">
+          <div id="card0"></div>
+          <div class="service" id="card1">
+            <h3>Gossip</h3>
+            <p class="description">
+              You may have heard the rumors, but we're the ones who spread all
+              that unflattering truth. Someone has to do it! If you have someone
+              who bothers you let us handle it. We'll have you saying, "You know
+              what They say" in no time.
+            </p>
+            <hr />
+            <div class="testimonial">
+              <img src="../data/Emily_Erlinger.png" alt="A picture of emily" />
+              <p class="name">Emily Erlinger</p>
+            </div>
+            <p class="testimony">
+              There was once like this girl who like I think didn't really like
+              me so I called on They to fix it. In no time everyone had heard
+              what They said. It like wasn't very nice either. I'm completely
+              satisfied!
+            </p>
+          </div>
+          <div class="service" id="card2">
+            <h3>Reliability</h3>
+            <p class="description">
+              There are just sometimes in your life when you need someone to
+              back you up, no matter the situation. Let us decide the most
+              convienient consensus for you. Our Console of They makes the
+              important decisions for everyone. Whether it be scientists or
+              doctors, we decide the majority view!
+            </p>
+            <hr />
+            <div class="testimonial">
+              <img src="../data/Benny_Brownie.png" alt="A picture of emily" />
+              <p class="name">Benny Brownie</p>
+            </div>
+            <p class="testimony">
+              I was debating someone for one of my classes and losing pretty
+              bad. Then I remembered the Console of They could make up a
+              majority opinion in no time! Ignoring the complex scientific
+              literature They decided what the majority view was!
+            </p>
+          </div>
+          <div class="service" id="card3">
+            <h3>Trouble</h3>
+            <p class="description">
+              Don't you hate those people? You know the ones who abuse your
+              faith in people. The people who run red lights. Sneeze into their
+              hands. Those are our under cover agents. If you ever need an
+              excuse to hate people call on us!
+            </p>
+            <hr />
+            <div class="testimonial">
+              <img src="../data/Pablo_Problem.png" alt="A picture of emily" />
+              <p class="name">Pablo Problem</p>
+            </div>
+            <p class="testimony">
+              My family has always been a problem. The issue is we need a
+              justification for our actions. Luckily, They provide a great
+              excuse for our bad behavior. With constant inexcusable actions,
+              people have come to expect our behavior from everyone. They are a
+              true savior. I fully recommend!
+            </p>
+          </div>
+          <div class="service" id="card4">
+            <h3>The Other</h3>
+            <p class="description">
+              Don't you hate those nasty people a part of that other thing?
+              Whether in politics, a different team or another friend group. We
+              support you in your disgust of them. We have secret agents that
+              can get on the inside and make them look as bad a possible.
+            </p>
+            <hr />
+            <div class="testimonial">
+              <img src="../data/Lola_Lolipop.png" alt="A picture of emily" />
+              <p class="name">Lola Lolipop</p>
+            </div>
+            <p class="testimony">
+              My Mommy and Daddy said that I had to be nice as long as people
+              are nice to me. But then there was this boy in my class I thought
+              looked funny and I wanted to say that to him. So I hired a secret
+              agent of They to get him to be mean to me. He said that I am fat.
+              Then I told him his face looked like a cheese grate. It didn't
+              feel good to get called fat but I can be mean to him all I want!
+            </p>
+          </div>
+          <div class="service" id="card5">
+            <h3>The Worst</h3>
+            <p class="description">
+              We are the worst. All people have that thing that they don't want
+              to do. Apologizing to a friend, going out of your way to help a
+              neighbor, etc. When you meet some of our worst people you'll never
+              want to be nice again.
+            </p>
+            <hr />
+            <div class="testimonial">
+              <img src="../data/Chocho_Caboos.png" alt="A picture of emily" />
+              <p class="name">Chocho Caboose</p>
+            </div>
+            <p class="testimony">
+              I've made my far share of enemies back in the day. I know I should
+              apologize to them but that's a hassle. One live long day I was
+              working on the railroad when I met one of my good old enemies. I
+              start apologizing to him but he started yellin' at me good. He
+              called me names and said he'd never forgive me. The kicker is that
+              he's worked for They all along! Now I never want to apologize to
+              anyone again. They will never accept your apology.
+            </p>
+          </div>
+          <div class="service" id="card6">
+            <h3>The Problem</h3>
+            <p class="description">
+              You can bet your button that we're the problem too! If you ever
+              need a scapegoat to excuse your shortcomings we'd be happy to
+              oblige.
+            </p>
+            <hr />
+            <div class="testimonial">
+              <img src="../data/Timmy_Tommy.png" alt="A picture of emily" />
+              <p class="name">Timmy Tommy</p>
+            </div>
+            <p class="testimony">
+              All the homework I get in school is exhausting. Most the time I
+              don't even do it. I play with my friends instead. None of this
+              would be a problem if my teacher didn't want me to finish my
+              homework. This got me thinking. If I hired an agent of They to
+              destroy my homework everyday then I'd be fine. So I did. They
+              would push me over in the parking lot and steal my homework! When
+              the teacher asked where my homework was, I said, "They stole it"
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2>The Team</h2>
+      <div id="team">
+        <button class="member" id="member1" onclick="infoCardPressed(member1)">
+          <div class="team-member">
+            <img
+              src="../data/Sally Swashbuckler.png"
+              alt="Sally Swashbuckler"
+            />
+            <div class="team-name">
+              <p class="first-name">Sally</p>
+              <p class="last-name">Swashbuckler</p>
+            </div>
+          </div>
+          <p class="team-role">Manager of HR</p>
+          <p class="described-role">
+            I have worked at They for 5 years now and I've loved it. The people
+            I work with are interesting but they are very supportive. Whenever
+            I'm feeling down the Manager of Secret Agents can change things.
+            Before I was the manager of HR I had him get an agent on the inside
+            of HR who messed up all our paper work. That manager was fired
+            instantly. As far as They knows, nobody knows what happened to her.
+            I love this place.
+          </p>
+        </button>
+        <button class="member" id="member2" onclick="infoCardPressed(member2)">
+          <div class="team-member">
+            <img src="../data/David Gold.png" alt="Sally Swashbuckler" />
+            <div class="team-name">
+              <p class="first-name">David</p>
+              <p class="last-name">Gold</p>
+            </div>
+          </div>
+          <p class="team-role">Chief Financial Officer</p>
+          <p class="described-role">
+            Hello, I'm David Gold. I've spent the last 7 wonderful year of my
+            life here. Before I worked here I worked for some of the biggest
+            investment firms in the world. People often ask me if They provides
+            a useful service. I say to them that if there's supply then there's
+            nothing to worry about.
+          </p>
+        </button>
+        <button class="member" id="member3" onclick="infoCardPressed(member3)">
+          <div class="team-member">
+            <img src="../data/Name Unknown.png" alt="Sally Swashbuckler" />
+            <div class="team-name">
+              <p class="first-name">Name</p>
+              <p class="last-name">Unknown</p>
+            </div>
+          </div>
+          <p class="team-role">Manager of Secret Agents</p>
+          <p class="described-role">
+            I manage the secret agents. There's no organization that we can't
+            penetrate. Look all around you. They are watching, They pulls the
+            strings, They is the most powerful force in the world! Question They
+            and you will surely die!
+          </p>
+        </button>
+        <button class="member" id="member4" onclick="infoCardPressed(member4)">
+          <div class="team-member">
+            <img src="../data/Jerry Elmbottom.png" alt="Sally Swashbuckler" />
+            <div class="team-name">
+              <p class="first-name">Jerry</p>
+              <p class="last-name">Elmbottom</p>
+            </div>
+          </div>
+          <p class="team-role">Chief Executive Officer</p>
+          <p class="described-role">
+            Hello, I'm Jerry Elmbottom, a self-made millionaire and part of the
+            global elite. 12 years ago I founded this company with
+            Zaratoothstra. Zaratoothstra was very charasmatic and convinced me
+            that They is what the people need. Man I love that guy. He even has
+            funny summoning rituals that he does. Now that They has taken off
+            people need us. It's almost like they're addicted to They. But hey,
+            that's what we're here for, to give people what they want.
+          </p>
+        </button>
+        <button class="member" id="member5" onclick="infoCardPressed(member5)">
+          <div class="team-member">
+            <img
+              src="../data/Zaratoothstra Elsher.png"
+              alt="Zaratoothstra Elsher"
+            />
+            <div class="team-name">
+              <p class="first-name">Zaratoothstra</p>
+              <p class="last-name">Elsher</p>
+            </div>
+          </div>
+          <p class="team-role">Practitioner</p>
+          <p class="described-role">
+            I've been a part of They all along. When I met Jerry I convinced him
+            that there were many things people didn't know. If only they knew
+            the truth they'd be free from their mortal existance. Some people
+            call me gnostic but I say that we must know the truth to be like
+            gods. Look inwards all and find the truth within you! Come to They,
+            They will sustain you! Out your faith in They so that your salvation
+            will come to fruition! All hail They!
+          </p>
+        </button>
+      </div>
+    </div>
+    <div id="member-info">
+      <div id="info-about">
+        <div id="info-name">
+          <p id="info-first">Zaratoothstra</p>
+          <p id="info-last">Elsher</p>
+        </div>
+        <img
+          src="../data/Zaratoothstra Elsher.png"
+          alt="Zaratoothstra Elsher"
+        />
+        <p id="info-position">Practitioner</p>
+        <button id="exit-info" onclick="closeInfoCard()">X</button>
+      </div>
+      <hr id="info-divide" />
+      <p id="described-role-info">
+        Bow down you pitiful fools. I have the answers and I will give them to
+        those who submit to me. For too long gnostics have been opressed but
+        come to me and I will awaken the god within and together we will rule!
+      </p>
+    </div>
+    <script src="functionality.js"></script>
+  </body>
+</html>
