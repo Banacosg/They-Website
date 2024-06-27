@@ -59,7 +59,7 @@ body {
 #top-container {
   display: flex;
   flex-direction: column;
-  background-image: url("../data/wave.jpg");
+  background-image: url("wave.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -197,13 +197,13 @@ body {
 }
 
 #left {
-  background-image: url(../data/arrow2_left.png);
+  background-image: url(arrow2_left.png);
   margin-left: 10px;
   visibility: hidden;
 }
 
 #right {
-  background-image: url(../data/arrow2_right.png);
+  background-image: url(arrow2_right.png);
   margin-right: 10px;
   visibility: visible;
 }
