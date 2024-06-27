@@ -123,6 +123,7 @@ body {
   justify-content: center;
   z-index: 0;
   height: 95%;
+  grid-area: inner-div;
 }
 
 .service {
@@ -197,13 +198,15 @@ body {
 }
 
 #left {
-  background-image: url(arrow2_left.png);
+  background-image: url(arrow_left.png);
+  background-color: transparent;
   margin-left: 10px;
   visibility: hidden;
 }
 
 #right {
-  background-image: url(arrow2_right.png);
+  background-image: url(arrow_right.png);
+  background-color: transparent;
   margin-right: 10px;
   visibility: visible;
 }
